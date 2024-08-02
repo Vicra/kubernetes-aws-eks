@@ -40,3 +40,7 @@ view recetly generated user
 use yml manifest to create infraestructure (IaC)
     
     cluster.yaml
+
+Once cluster.yaml file is completed, run command
+
+    eksctl create cluster -f cluster.yaml
