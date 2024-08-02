@@ -36,4 +36,7 @@ view recetly generated user
 
     aws eks list-clusters
 
+
+use yml manifest to create infraestructure (IaC)
     
+    cluster.yaml
