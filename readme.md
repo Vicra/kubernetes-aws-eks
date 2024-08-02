@@ -44,3 +44,23 @@ use yml manifest to create infraestructure (IaC)
 Once cluster.yaml file is completed, run command
 
     eksctl create cluster -f cluster.yaml
+
+view aws worker nodes
+
+    kubectl get nodes
+
+cluster you can work with
+
+    kubectl config get-contexts
+
+    kubectl get pods -A
+
+QUESTIONS
+What is the name of the directory where the AWS CLI stores your credentials?
+    .aws
+
+To create a user with admin permissions, you start by creating what kind of IAM resource?
+    IAM User group
+
+Which AWS resource runs your Kubernetes worker nodes?
+    EC2
